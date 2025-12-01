@@ -19,7 +19,8 @@ const Services: React.FC = () => {
             "images/image2.jpeg", // Sports - Leg work
             "images/image4.jpeg", // Remedial - Shoulder work
             "images/image3.jpeg", // Needling/Cupping - Back
-            "images/image6.jpeg"  // Joint - Knee mobilisation
+            "images/image6.jpeg", // Joint - Knee mobilisation
+            "images/image9.jpeg"  // Facilities - Treatment Room
         ];
         return images[index % images.length];
     }

@@ -13,6 +13,8 @@ const Home: React.FC = () => {
     { src: 'images/image5.jpeg', alt: 'Assisted Stretching' },
     { src: 'images/image6.jpeg', alt: 'Knee Mobilisation' },
     { src: 'images/image7.jpeg', alt: 'Cupping Results Before After' },
+    { src: 'images/image8.jpeg', alt: 'Yuhan - Principal Therapist' },
+    { src: 'images/image9.jpeg', alt: 'Treatment Room Facilities' },
   ];
 
   return (
@@ -178,7 +180,7 @@ const Home: React.FC = () => {
                 </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {galleryImages.map((img, index) => (
                     <div key={index} className="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3] bg-gray-200">
                         <img 
@@ -187,7 +189,7 @@ const Home: React.FC = () => {
                             className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                            <p className="text-white font-semibold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                            <p className="text-white font-semibold transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 text-sm">
                                 {img.alt}
                             </p>
                         </div>

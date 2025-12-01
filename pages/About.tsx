@@ -23,7 +23,7 @@ const About: React.FC = () => {
             <div className="flex flex-col md:flex-row">
                 <div className="w-full md:w-2/5 relative min-h-[400px]">
                     <img 
-                        src="images/image2.jpeg" 
+                        src="images/image8.jpeg" 
                         alt="Yuhan Principal Therapist" 
                         className="w-full h-full object-cover absolute inset-0"
                     />
@@ -130,9 +130,9 @@ const About: React.FC = () => {
                 <div className="lg:w-1/2 relative">
                     <div className="absolute -inset-4 bg-brand-primary/10 rounded-3xl transform rotate-2"></div>
                     <img 
-                        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-                        alt="Gym Facilities" 
-                        className="rounded-2xl shadow-lg relative z-10 w-full"
+                        src="images/image9.jpeg" 
+                        alt="Clinical Treatment Room and Chair" 
+                        className="rounded-2xl shadow-lg relative z-10 w-full object-cover"
                     />
                 </div>
             </div>
